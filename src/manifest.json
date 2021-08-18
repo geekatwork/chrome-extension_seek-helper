@@ -6,7 +6,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.seek.com.au/job/*"
+        "https://www.seek.com.au/job/*",
+        "https://www.seek.co.nz/job/*"
       ],
       "js": [
         "content.js"
